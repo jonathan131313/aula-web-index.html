@@ -1,0 +1,8 @@
+vetor = input("Digite algo: ")
+cons = []
+for elem in vetor:
+    if elem != 'a' and elem != 'e' and elem != 'i' and elem != 'o' and elem != 'u':
+        cons.append(elem)
+
+print("As consoantes são: ",cons)
+print("Total de ",len(cons),"consoantes.")
